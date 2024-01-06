@@ -1,0 +1,12 @@
+->git rm --cached filename(to remove file in remote repo)
+->git remote rm origin(to remove repo in remote)
+->git checkout filename
+->git checkout .
+->git reset filename
+->git reset --soft
+  git reset --hard commitID
+->git commit --ammand "message"
+->git diff branchone and branchtwo
+->git clone BranchURL
+->git pull URL
+->git fetch URL

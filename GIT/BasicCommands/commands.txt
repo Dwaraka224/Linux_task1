@@ -1,0 +1,32 @@
+->git init(for initialization)
+->git config user.name "username"
+  git config user.email "useremail"
+  git config --edit(to edit configaration)
+->git add filename(for adding the single file)
+  git add .(for adding all files)
+  git add *.ext(adding perticular extension files)
+->git commit -m(for commiting the files)
+->git remote add origin "Remote Repositary URL"(for connecting the local repo to remote repo)
+->git push origin master/Branch name(for pushing the files in local repo to remote repo)
+->git status(to see which are trached and untrached files)
+->git log(to see the all commits)
+  git log --oneline(to see all commits in one line)
+  git log -number(to see first number of commits)
+  git log -filename(to see perticular file commits)
+->git clone "Remote URL"(to get all files in remote to local)
+->git branch branchname(to create new branch)
+->git checkout branchname(to shift to another branch)
+  git switch branchname(to shift to another branch)
+->git branch(to see the list of branches)
+  git branch --list(to see the list of branches)
+->git merge branchname(to merge two branches)
+->git rebase branchname(to merge the branch without forming  new commit)
+->git cherry-pick commitID(to merge perticular commit)
+->git commit -am "message"(for adding and commiting)
+->git branch -d branchname(to delete branch in local without any commits in that branch)
+->git branch -D branchname(to delete branch in local after commiting)
+-.git push origin -d branchname(to delete the branch in remote repository)
+->git remote -v(to see the list of origin in remote repo)
+
+ 
+
